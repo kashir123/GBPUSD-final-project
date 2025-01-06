@@ -34,6 +34,7 @@ is giving profitable results.
   - TensorFlow/Keras
   - Scikit-Learn
   - Plotly
+    
 **Dataset**
 
 - Source: https://uk.finance.yahoo.com/quote/GBPUSD%3DX/history/?guccounter=1
@@ -48,6 +49,7 @@ The project implements the following models for price prediction:
 - Random Forest: Ensemble-based model effective for regression tasks on structured data.
 - XGBoost: Boosted decision tree model optimized for speed and accuracy.
 
+
 **Evaluation Metrics**
 
 The model’s performance is evaluated using the following metrics:
@@ -55,13 +57,16 @@ The model’s performance is evaluated using the following metrics:
 	- Mean Absolute Error (MAE)
 	- Root Mean Squared Error (RMSE)
 	- R-squared (R²)
+ 
 **Results**
 - The GRU model demonstrated the highest accuracy with an R² of 0.99 and MAE of 0.0041.
 - LSTM followed closely with an R² of 0.85.
 - Random Forest and XGBoost models performed well after hyperparameter tuning, achieving R² scores of 0.84 and 0.79, respectively.
+  
 **Backtesting and Strategy**
 - Backtesting was conducted to simulate trading scenarios using model predictions.
 - A starting capital of £10,000 was used, with risk-adjusted returns measured using the Sharpe ratio.
+  
 **Ethical Considerations**
 - The dataset used in this project is publicly available on Yahoo Finance and does not contain personal or sensitive information.
 - All data was collected from reputable sources, ensuring compliance with ethical research practices.
