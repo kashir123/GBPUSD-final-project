@@ -12,6 +12,7 @@ data and technical indicators?
 3. Evaluate the performance of the model.
 4. Build and analyze the trading strategy for different Models and evaluate them which model
 is giving profitable results.
+
 **Features**
 - Predict GBP/USD exchange rates using machine learning.
 - Implement deep learning models (LSTM, GRU) and ensemble models (Random Forest, XGBoost).
@@ -22,6 +23,7 @@ is giving profitable results.
    - Moving Average Convergence Divergence (MACD)
 - Data preprocessing includes normalization and sliding window techniques for sequential modeling.
 - Backtesting to validate model predictions and assess profitability.
+
 **Technologies Used**
 - Programming Language: Python
 - Libraries:
@@ -33,16 +35,18 @@ is giving profitable results.
   - Scikit-Learn
   - Plotly
 **Dataset**
+
 - Source: https://uk.finance.yahoo.com/quote/GBPUSD%3DX/history/?guccounter=1
 - Description: The dataset contains historical daily GBP/USD exchange rates, including Open, High, Low, and Close prices. Additional technical indicators are computed to enrich the feature set.
 - Preprocessing: Missing values were handled, and data normalization (Min-Max Scaling) was applied.
 
 **Model Architecture**
+
 The project implements the following models for price prediction:
-	1.	LSTM (Long Short-Term Memory): Captures long-term dependencies in sequential data.
-	2.	GRU (Gated Recurrent Unit): A lightweight alternative to LSTM that reduces computational complexity.
-	3.	Random Forest: Ensemble-based model effective for regression tasks on structured data.
-	4.	XGBoost: Boosted decision tree model optimized for speed and accuracy.
+- LSTM (Long Short-Term Memory): Captures long-term dependencies in sequential data.
+- GRU (Gated Recurrent Unit): A lightweight alternative to LSTM that reduces computational complexity.
+- Random Forest: Ensemble-based model effective for regression tasks on structured data.
+- XGBoost: Boosted decision tree model optimized for speed and accuracy.
 
 **Evaluation Metrics**
 
