@@ -4,6 +4,7 @@
 1. Can Machine Learning Models accurately predict the price of GBP/USD using the historical
 data and technical indicators?
 2. Can Machine Learning Models used to create the profitable trading strategy?
+   
 **Project Objectives:**
 1. Collect and preprocess the historical data and perform EDA on it and understand the
       patterns.
@@ -71,6 +72,7 @@ The model’s performance is evaluated using the following metrics:
 - The dataset used in this project is publicly available on Yahoo Finance and does not contain personal or sensitive information.
 - All data was collected from reputable sources, ensuring compliance with ethical research practices.
 - No personal data or GDPR-sensitive information was processed during the project.
+  
 **Contact**
 - Author: Kashir Waseem
 - Email: kashir.waseem116@gmail.com
